@@ -1,0 +1,22 @@
+body {
+  background: url(https://img.freepik.com/premium-photo/light-cloudy-summer-weather-background_470301-715.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 300px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 300px;
+}
