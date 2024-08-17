@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { Button } from "react-bootstrap";
 import WeatherBox from "./components/WeatherBox";
 import WeatherButton from "./components/WeatherButton";
 
@@ -25,7 +24,7 @@ function App() {
   };
 
   useEffect(() => {
-    let data = getCurrentLocation();
+    getCurrentLocation();
   }, []);
   return (
     <div className="App">
