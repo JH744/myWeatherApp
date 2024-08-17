@@ -23,9 +23,12 @@ function App() {
     setWeather(data);
   };
 
-  useEffect(() => {
-    getCurrentLocation();
-  }, []);
+  useEffect(
+    () => {
+      getCurrentLocation();
+    }, // eslint-disable-next-line
+    []
+  );
   return (
     <div className="App">
       <div className="container">
