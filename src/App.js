@@ -16,7 +16,7 @@ function App() {
 
   const getWeatherByCurrentLocation = async (lat, lon) => {
     // const apiKey = process.env.REACT_APP_API_KEY; // 환경변수 api 호출
-    const apiKey = fa6eaf0b4515b3dc584e357a0d0d68f0; // 빌드에러로 임시 하드코딩
+    const apiKey = "fa6eaf0b4515b3dc584e357a0d0d68f0"; // 빌드에러로 임시 하드코딩
     let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
     let res = await fetch(url);
     let data = await res.json();
