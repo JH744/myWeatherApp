@@ -20,6 +20,7 @@ function App() {
   };
 
   const getWeatherByCurrentLocation = async (lat, lon) => {
+
     setLoading(true);
     try {
       const apiKey = process.env.REACT_APP_API_KEY; // 환경변수 api 호출
